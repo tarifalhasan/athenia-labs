@@ -1,8 +1,8 @@
+import facebook from "@/public/Facebook.svg";
+import linkedin from "@/public/Linkedin.svg";
 import x from "@/public/X svg.svg";
 import youtube from "@/public/YouTube.svg";
 import logo from "@/public/athenia.svg";
-import facebook from "@/public/facebook.svg";
-import linkedin from "@/public/linkedin.svg";
 import Image from "next/image";
 import Link from "next/link";
 const Footer = () => {
