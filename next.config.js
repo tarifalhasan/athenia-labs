@@ -1,4 +1,14 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+// next.config.js
 
-module.exports = nextConfig
+module.exports = {
+  webpack: (config) => {
+    // Use the ignore-loader for .node files
+    config.module.rules.push({
+      test: /\.node$/,
+      use: "ignore-loader",
+    });
+
+    return config;
+  },
+};
